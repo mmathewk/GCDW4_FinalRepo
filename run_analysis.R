@@ -120,3 +120,5 @@ colnames(by_subact) <- nmtmp
 
 # write out tidy data for averages of mean and standard deviation
 write.csv(by_subact,file.path(tdydir,"average_mean_stddev_tidy_by_subject_activity.csv"), row.names = FALSE)
+# added as part of submission which asked specifically for write.table output
+write.table(by_subact,file.path(tdydir,"average_mean_stddev_tidy_by_subject_activity.txt"), row.names = FALSE)

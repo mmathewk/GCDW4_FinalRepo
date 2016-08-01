@@ -40,6 +40,7 @@ The dataset includes the following files /folders:
 		+ tidyoutput/merged_all_data_tidy.csv
 		+ tidyoutput/mean_stddev_only_data_tidy.csv
 		+ tidyoutput/average_mean_stddev_tidy_by_subject_activity.csv
+		+ tidyoutput/average_mean_stddev_tidy_by_subject_activity.txt
 	
 	- UCI HAR Dataset/features_info.txt
 		+ describes the features in the "merged_all_data_tidy.csv" set and its subset "mean_stddev_only_data_tidy.csv"
@@ -50,7 +51,8 @@ The dataset includes the following files /folders:
 	- FILE / DATA SET: mean_stddev_only_data_tidy.csv
 		+ This file represents a subset of the all the tidy data that captures only the measures that represent the mean and standard deviation of the initial measures. 
 	
-	- FILE / DATA SET: average_mean_stddev_tidy_by_subject_activity.csv
+	- FILE / DATA SET: average_mean_stddev_tidy_by_subject_activity.csv / average_mean_stddev_tidy_by_subject_activity.txt
 		+ This file represents the average of each  measure that represents the mean and standard deviation of the initial measures  for each subject and activity combination. The column names for this set represent this with the addition of "average_of" to the names of the measures that were averaged. 
+		+ The ".txt" file was added to satisfy the needs of the submission that called for output using write.table rather than write.csv! - At the time of the submission!
 		
 
