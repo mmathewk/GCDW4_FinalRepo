@@ -1,0 +1,23 @@
+Instruction list / Script
+=========================
+
+- Create (or select) a directory that will serve as you working directory (WD) for this data cleanup exercise
+
+- Download the zip file "UCI HAR Dataset.zip" from:
+	+ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+	+ The file is also available in this repo along with an exploded version if required
+
+- Unzip the file. This should create a directory called "UCI HAR Dataset". The contents of the directory should look as follows:
+	+ README.txt		
+	+ features.txt
+	+ test (directory)
+	+ activity_labels.txt
+	+ features_info.txt	
+	+ train (directory)
+
+- Place the run_analysis.R script in the WD
+
+- Source the run_analysis.R script in the WD
+
+- The final tidy data is created in the directory tidyoutput. This data is also available in this repo along with the appropriate documentation
+
