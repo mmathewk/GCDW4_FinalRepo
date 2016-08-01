@@ -21,7 +21,7 @@ The dataset includes the following files /folders:
 
 	- CodeBook.txt	
 		
-	- UCI HAR Dataset	# The raw data used for this analysis after unzipping
+	- UCI HAR Dataset/	# The folder with raw data used for this analysis after unzipping
 	
 	- InstructionList.txt	
 	
