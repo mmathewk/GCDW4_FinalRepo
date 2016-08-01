@@ -1,7 +1,7 @@
 Instruction list / Script
 =========================
 
-- Create (or select) a directory that will serve as you working directory (WD) for this data cleanup exercise
+- Create (or select) a directory that will serve as your working directory (WD) for this data cleanup exercise
 
 - Download the zip file "UCI HAR Dataset.zip" from:
 	+ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
